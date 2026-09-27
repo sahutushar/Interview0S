@@ -1,0 +1,33 @@
+# Root-level gitignore for the InterviewOS monorepo
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# SQLite databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Uploaded files (transient, not source)
+Backend/uploads/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+next-env.d.ts
